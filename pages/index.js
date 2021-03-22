@@ -10,58 +10,44 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          <img src="/rr-logo.svg" alt="rodneyrinaldi" className={styles.logo} />
-        </h1>
-        <br />
-        <h1 className={styles.title}>
-          <img src="/rodneyrinaldi.svg" alt="rodneyrinaldi" className={styles.logo} />
-        </h1>
-        <br />
+        <img src="/rr-logo.svg" alt="rodneyrinaldi" className={styles.logo1} />
+        <img src="/rodneyrinaldi.svg" alt="rodneyrinaldi" className={styles.logo2} />
 
-        <p className={styles.description}>
-          <code className={styles.code}>
-            {"{sustentability=ethical*((bpm*(journey*(crm*(clt)+hr(usr)))))}"}
-          </code>
-        </p>
+        <code className={styles.code}>
+          <h1>{"{sustentability=ethical*((bpm*(journey*(crm*(clt)+hr(usr)))))}"}</h1>
+          <h2>{"{sustentability=ethical*journey}"}</h2>
+        </code>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="#" className={styles.card}>
+            <h3>... &rarr;</h3>
+            <p>...................................................</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="#" className={styles.card}>
+            <h3>... &rarr;</h3>
+            <p>...................................................</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="#" className={styles.card}>
+            <h3>... &rarr;</h3>
+            <p>...................................................</p>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a href="#" className={styles.card}>
+            <h3>... &rarr;</h3>
+            <p>...................................................</p>
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
         <a href="https://adv.rodneyrinaldi.com">adv.rodneyrinaldi.com</a>
-        <a href="https://rodneyrinaldi.com"><img src="/rr-logo.svg" alt="rodneyrinaldi" className={styles.logo} /></a>
+        <a href="https://rodneyrinaldi.com"><img src="/rr-logo.svg"
+          alt="rodneyrinaldi" /></a>
         <a href="https://dpo.rodneyrinaldi.com">dpo.rodneyrinaldi.com</a>
       </footer>
 
-    </div >
+    </div>
   )
 }
