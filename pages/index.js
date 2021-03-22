@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import cvpdf from '../assets/cv.rodneyrinaldi.pdf';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -26,10 +25,11 @@ export default function Home() {
             Architecto nam beatae voluptas recusandae repellendus hic et.</p>
           </a>
 
-          <a href={cvpdf} target="_blank" className={styles.card}>
+          <a href="/curriculum" className={styles.card}>
             <h3>curriculum &rarr;</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Architecto nam facilis magni aliquid itaque tenetur, fugiat</p>
+            <p>Coder & Dba & Lawyer. Direito digital e civil.
+            Tecnologias Microsoft, Oracle e Javascript.
+              Codando em ReactJS, React Native, Node.js</p>
           </a>
 
           <a href="#" className={styles.card}>
