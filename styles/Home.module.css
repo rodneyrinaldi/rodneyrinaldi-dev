@@ -33,6 +33,7 @@
   align-items: center;
 }
 .footer a {
+  font-size: .7rem;
   display: flex;
   padding: 0 6px;
 }
