@@ -38,6 +38,9 @@
   display: flex;
   padding: 0 6px;
 }
+.footer a:hover {
+  color: #0070f3;
+}
 
 .title a {
   color: #0070f3;
