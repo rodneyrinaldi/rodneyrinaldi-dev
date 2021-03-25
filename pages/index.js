@@ -20,28 +20,23 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="#" className={styles.card}>
-            <h3>manifesto &rarr;</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Architecto nam beatae voluptas recusandae repellendus hic et.</p>
+            <img src="/manifesto.png" alt="manifesto" className={styles.logo3} />
+            <p>Publibicização dos princípios e conceitos vivenciados objetivando necessariamente à evolução ética eficiente e sustentável.</p>
           </a>
 
           <a href="/curriculum" className={styles.card}>
-            <h3>curriculum &rarr;</h3>
-            <p>Coder & Dba & Lawyer. Direito digital e civil.
-            Tecnologias Microsoft, Oracle e Javascript.
-              Codando em ReactJS, React Native, Node.js</p>
+            <img src="/curriculo.png" alt="curriculo" className={styles.logo3} />
+            <p>Coder & Dba & Lawyer. Direito digital e civil. Tecnologias Microsoft, Oracle e Javascript. Codando em ReactJS, React Native, Node.js.</p>
           </a>
 
           <a href="#" className={styles.card}>
-            <h3>portfólio &rarr;</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto</p>
+            <img src="/portfolio.png" alt="portfolio" className={styles.logo3} />
+            <p>Consultoria, projetos, arquitetura de software e trabalhos desenvolvidos.</p>
           </a>
 
           <a href="#" className={styles.card}>
-            <h3>artigos &rarr;</h3>
-            <p>Lorem ipsum ellendus hic et eius impedit voluptate quam eveniet
-            ex facilis magni aliquid itaque,
-              tenetur, fugiat omnis ab</p>
+            <img src="/editorial.png" alt="editorial" className={styles.logo3} />
+            <p>Publicações, cursos e materiais educacionais desenvolvidos.</p>
           </a>
         </div>
       </main>
