@@ -20,24 +20,25 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="#" className={styles.card}>
-            <img src="/manifesto.png" alt="manifesto" className={styles.logo3} />
-            <p>Publibicização dos princípios e conceitos vivenciados objetivando necessariamente à evolução ética eficiente e sustentável.</p>
+            <img src="/portfolio.png" alt="portfolio" className={styles.logo3} />
+            <p>Consultoria, projetos, arquitetura de software e trabalhos desenvolvidos.</p>
           </a>
 
           <a href="/curriculum" className={styles.card}>
             <img src="/curriculo.png" alt="curriculo" className={styles.logo3} />
-            <p>Coder & Dba & Lawyer. Direito digital e civil. Tecnologias Microsoft, Oracle e Javascript. Codando em ReactJS, React Native, Node.js.</p>
+            <p>Javascript, ReactJS, React Native, Node.js, Microsoft e Oracle.</p>
           </a>
 
           <a href="#" className={styles.card}>
-            <img src="/portfolio.png" alt="portfolio" className={styles.logo3} />
-            <p>Consultoria, projetos, arquitetura de software e trabalhos desenvolvidos.</p>
+            <img src="/manifesto.png" alt="manifesto" className={styles.logo3} />
+            <p>Princípios vivenciados, evolução ética, eficiente e sustentável.</p>
           </a>
 
           <a href="#" className={styles.card}>
             <img src="/editorial.png" alt="editorial" className={styles.logo3} />
             <p>Publicações, cursos e materiais educacionais desenvolvidos.</p>
           </a>
+
         </div>
       </main>
 

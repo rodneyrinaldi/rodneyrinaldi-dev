@@ -67,6 +67,7 @@
 .code {
   background: #fafafa;
   border-radius: 5px;
+  color: darkred;
   padding: 0.75rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
@@ -107,8 +108,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  background:  rgba(253, 188, 188, 0.138);
+  border-color: rgba(78, 1, 1, 0.467);
 }
 
 .card h3 {
@@ -138,9 +139,10 @@
 .logo3 {
   margin-top: 1vh;
   width: 12vw;
-  max-width: 400px;
+  max-width: 160px;
   margin-top: 26px;
   margin-bottom: 6px;
+  opacity: .9;
 }
 
 @media (max-width: 600px) {
