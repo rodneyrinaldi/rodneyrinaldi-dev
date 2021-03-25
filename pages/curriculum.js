@@ -97,10 +97,10 @@ export default function Curriculum() {
         </div>
         <div className={styles.col2}>
           <div className={styles.bullets}>
-            <div>Inglês</div><h2 /><h2 /><h2 /><h2 /><h2 /><h2 /><h2 /><h2 /><h2 /><h2 />
+            <div>Inglês&nbsp;&nbsp;</div><div /><div /><div /><div /><div /><div /><div /><div /><div />
           </div>
           <div className={styles.bullets}>
-            <div>Espanhol</div><h2 /><h2 /><h2 /><h2 /><h2 /><h2 /><h2 /><h2 /><h2 /><h2 />
+            <div>Espanhol&nbsp;&nbsp;</div><div /><div /><div /><div /><div /><div /><div /><div /><div />
           </div>
         </div>
       </div>

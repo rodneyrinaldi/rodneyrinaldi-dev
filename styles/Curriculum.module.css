@@ -98,13 +98,12 @@
   display: flex;
   height: 100%;
 }
-.bullets h2 {
-  font-size: 2rem;
-  line-height: .2rem;
-  flex-direction: row;
+
+.bullets div:nth-child(n+8):nth-child(-n+10) {
+  color: gray;
 }
 
-.bullets h2:after {
+.bullets div:after {
   content: ' \25CF';
 }
 
@@ -200,17 +199,4 @@
     font-weight: 300;
   }
 
-  .bullets {
-    display: flex;
-    height: 100%;
-  }
-  .bullets h2 {
-    font-size: 1.6rem;
-    line-height: .2rem;
-    flex-direction: row;
-  }
-
-  .bullets h2:after {
-    content: ' \25CF';
-  }
 }
