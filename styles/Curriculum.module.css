@@ -25,6 +25,10 @@
   height: 100%;
 }
 
+.line div div a {
+  cursor: pointer
+}
+
 .line h1 {
   font-size: 1.8rem;
   font-weight: 600;

@@ -42,6 +42,11 @@ export default function Home() {
         </div>
       </main>
 
+      <session className={styles.midias}>
+        <a href="https://www.linkedin.com/in/rodneyrinaldi/">linkedin.com/in/rodneyrinaldi/</a>
+        <a href="https://github.com/rodneyrinaldi">github.com/rodneyrinaldi</a>
+      </session>
+
       <footer className={styles.footer}>
         <a href="https://adv.rodneyrinaldi.com">adv.rodneyrinaldi.com</a>
         <a href="https://rodneyrinaldi.com"><img src="/rr-logo.svg"

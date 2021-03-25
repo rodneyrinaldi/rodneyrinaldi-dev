@@ -1,6 +1,10 @@
 import styles from '../styles/Curriculum.module.css'
 
 export default function Curriculum() {
+  function handlePhone() {
+    alert('11 98141.7040')
+  }
+
   return (
     <div className={styles.container}>
 
@@ -15,7 +19,7 @@ export default function Curriculum() {
           <div>linkedin.com/in/rodneyrinaldi</div>
         </div>
         <div className={styles.colR}>
-          <div>11 98141.7040</div>
+          <div><a onClick={handlePhone}>11 981**.**40</a></div>
           <div>rodneyrinaldi.com</div>
           <div>rodney@rodneyrinaldi.com</div>
         </div>
