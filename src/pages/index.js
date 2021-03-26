@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Contact from '../components/contact'
+import styles from '../styles/home.module.css'
 
 export default function Home() {
   return (
@@ -8,6 +9,8 @@ export default function Home() {
         <title>dev.rodneyrinaldi</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Contact showback='no' />
 
       <main className={styles.main}>
         <img src="/rr-logo.svg" alt="rodneyrinaldi" className={styles.logo1} />
@@ -19,7 +22,7 @@ export default function Home() {
         </code>
 
         <div className={styles.grid}>
-          <a href="#" className={styles.card}>
+          <a href="/portfolio" className={styles.card}>
             <img src="/portfolio.png" alt="portfolio" className={styles.logo3} />
             <p>Consultoria, projetos, arquitetura de software e trabalhos desenvolvidos.</p>
           </a>
@@ -29,12 +32,12 @@ export default function Home() {
             <p>Javascript, ReactJS, React Native, Node.js, Microsoft e Oracle.</p>
           </a>
 
-          <a href="#" className={styles.card}>
+          <a href="/manifesto" className={styles.card}>
             <img src="/manifesto.png" alt="manifesto" className={styles.logo3} />
             <p>Princípios vivenciados, evolução ética, eficiente e sustentável.</p>
           </a>
 
-          <a href="#" className={styles.card}>
+          <a href="/editorial" className={styles.card}>
             <img src="/editorial.png" alt="editorial" className={styles.logo3} />
             <p>Publicações, cursos e materiais educacionais desenvolvidos.</p>
           </a>

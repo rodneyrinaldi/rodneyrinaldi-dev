@@ -1,4 +1,5 @@
-import styles from '../styles/Curriculum.module.css'
+import Contact from '../components/contact'
+import styles from '../styles/curriculum.module.css'
 
 export default function Curriculum() {
   function handlePhone() {
@@ -6,7 +7,9 @@ export default function Curriculum() {
   }
 
   return (
-    <div className={styles.container}>
+    <div id='toppage' className={styles.container}>
+
+      <Contact showback='yes' />
 
       <div className={styles.line}>
         <h1><strong>Rodney Rinaldi Tonelli</strong></h1>
@@ -130,6 +133,8 @@ export default function Curriculum() {
           <div><i>... devemos valorizar o homem mais pelas perguntas que pelas respostas, Voltaire</i></div>
         </div>
       </div>
+
+      <div className={styles.back}><a href="#toppage">INICIO</a></div>
 
     </div>
   )

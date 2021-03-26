@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-right: 26px;
+
+  position: fixed;
+  z-index:100;
+  top:50%;
+  right: 0;
+}
+
+.wrapper a img {
+  fill: black;
+}
+
+.wrapper a img:hover {
+  fill: darkred;
+}
+
+.icon {
+  width: 60px;
+  padding: 10px;
+}
+
+
+
+@media (max-width: 600px) {
+  .wrapper {
+    margin-right: 6px;
+  }
+
+  
+  .icon {
+    width: 40px;
+    padding: 5px;
+  }
+
+}

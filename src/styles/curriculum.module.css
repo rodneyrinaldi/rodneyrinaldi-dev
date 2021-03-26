@@ -111,6 +111,16 @@
   content: ' \25CF';
 }
 
+.back {
+  color: darkred;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 700;
+}
+.back:hover {
+  color: rgb(211, 68, 68);
+}
+
 @media (max-width: 600px) {
   .container {
     height: auto;
