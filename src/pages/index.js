@@ -1,10 +1,13 @@
 import Head from 'next/head'
+import Link from 'next/link'
+
 import Contact from '../components/contact'
+
 import styles from '../styles/home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div id='toppage' name='toppage' className={styles.container}>
       <Head>
         <title>dev.rodneyrinaldi</title>
         <link rel="icon" href="/favicon.ico" />
@@ -22,25 +25,33 @@ export default function Home() {
         </code>
 
         <div className={styles.grid}>
-          <a href="/portfolio" className={styles.card}>
-            <img src="/portfolio.png" alt="portfolio" className={styles.logo3} />
-            <p>Consultoria, projetos, arquitetura de software e trabalhos desenvolvidos.</p>
-          </a>
+          <Link href="/portfolio">
+            <a href="/portfolio" className={styles.card}>
+              <img src="/portfolio.png" alt="portfolio" className={styles.logo3} />
+              <p>Consultoria, projetos, arquitetura de software e trabalhos desenvolvidos.</p>
+            </a>
+          </Link>
 
-          <a href="/curriculum" className={styles.card}>
-            <img src="/curriculo.png" alt="curriculo" className={styles.logo3} />
-            <p>Javascript, ReactJS, React Native, Node.js, Microsoft e Oracle.</p>
-          </a>
+          <Link href="/curriculum">
+            <a href="/curriculum" className={styles.card}>
+              <img src="/curriculo.png" alt="curriculo" className={styles.logo3} />
+              <p>Javascript, ReactJS, React Native, Node.js, Microsoft e Oracle.</p>
+            </a>
+          </Link>
 
-          <a href="/manifesto" className={styles.card}>
-            <img src="/manifesto.png" alt="manifesto" className={styles.logo3} />
-            <p>Princípios vivenciados, evolução ética, eficiente e sustentável.</p>
-          </a>
+          <Link href="/manifesto">
+            <a href="/manifesto" className={styles.card}>
+              <img src="/manifesto.png" alt="manifesto" className={styles.logo3} />
+              <p>Princípios vivenciados, evolução ética, eficiente e sustentável.</p>
+            </a>
+          </Link>
 
-          <a href="/editorial" className={styles.card}>
-            <img src="/editorial.png" alt="editorial" className={styles.logo3} />
-            <p>Publicações, cursos e materiais educacionais desenvolvidos.</p>
-          </a>
+          <Link href="/editorial">
+            <a href="/editorial" className={styles.card}>
+              <img src="/editorial.png" alt="editorial" className={styles.logo3} />
+              <p>Publicações, cursos e materiais educacionais desenvolvidos.</p>
+            </a>
+          </Link>
 
         </div>
       </main>

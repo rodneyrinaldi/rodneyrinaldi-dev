@@ -7,7 +7,7 @@ export default function Manifesto() {
   }
 
   return (
-    <div id='toppage' className={styles.container}>
+    <div id='toppage' name='toppage' className={styles.container}>
 
       <Contact showback='yes' />
 
@@ -17,9 +17,6 @@ export default function Manifesto() {
 
       <div className={styles.line}>
       </div>
-
-
-      <div className={styles.back}><a href="#toppage">INICIO</a></div>
 
     </div>
   )
