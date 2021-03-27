@@ -19,7 +19,10 @@ export default function Manifesto() {
         <img src="/rr-logo.svg" alt="rodneyrinaldi" className={styles.logo1} />
         <img src="/rodneyrinaldi.svg" alt="rodneyrinaldi" className={styles.logo2} />
 
+        <h1>PORTFÓLIO DE PRODUTOS E SERVIÇOS</h1>
+
         <div className={styles.grid}>
+
           <Link href="#">
             <a href="/portfolio" className={styles.card}>
               <img src="/product.png" alt="product" className={styles.logo3} />

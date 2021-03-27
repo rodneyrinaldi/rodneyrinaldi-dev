@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import Contact from '../components/contact'
 
-import styles from '../styles/home.module.css'
+import styles from '../styles/index.module.css'
 
 export default function Home() {
   return (
@@ -45,7 +45,7 @@ export default function Home() {
             <a href="/manifesto" className={styles.card}>
               <img src="/manifesto.png" alt="manifesto" className={styles.logo3} />
               <h2>MANIFESTO</h2>
-              <p>Princípios vivenciados, evolução ética, eficiente e sustentável.</p>
+              <p>Princípios definidores para uma evolução ética e sustentável.</p>
             </a>
           </Link>
 
