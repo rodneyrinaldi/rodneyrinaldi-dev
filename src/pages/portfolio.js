@@ -1,22 +1,88 @@
 import Head from 'next/head'
+import Link from 'next/link'
+
 import Contact from '../components/contact'
-import styles from '../styles/manifesto.module.css'
+
+import styles from '../styles/portfolio.module.css'
 
 export default function Manifesto() {
   return (
-    <div id='toppage' className={styles.container}>
+    <div id='toppage' name='toppage' className={styles.container}>
+      <Head>
+        <title>dev.rodneyrinaldi</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
       <Contact showback='yes' />
 
-      <div className={styles.line}>
-        <h1><strong>Portfólio</strong></h1>
-      </div>
+      <main className={styles.main}>
+        <img src="/rr-logo.svg" alt="rodneyrinaldi" className={styles.logo1} />
+        <img src="/rodneyrinaldi.svg" alt="rodneyrinaldi" className={styles.logo2} />
 
-      <div className={styles.line}>
-      </div>
+        <div className={styles.grid}>
+          <Link href="#">
+            <a href="/portfolio" className={styles.card}>
+              <img src="/product.png" alt="product" className={styles.logo3} />
+              <p>.....................................</p>
+            </a>
+          </Link>
+          <Link href="#">
+            <a href="/portfolio" className={styles.card}>
+              <img src="/product.png" alt="product" className={styles.logo3} />
+              <p>.....................................</p>
+            </a>
+          </Link>
+          <Link href="#">
+            <a href="/portfolio" className={styles.card}>
+              <img src="/product.png" alt="product" className={styles.logo3} />
+              <p>.....................................</p>
+            </a>
+          </Link>
+          <Link href="#">
+            <a href="/portfolio" className={styles.card}>
+              <img src="/product.png" alt="product" className={styles.logo3} />
+              <p>.....................................</p>
+            </a>
+          </Link>
+          <Link href="#">
+            <a href="/portfolio" className={styles.card}>
+              <img src="/product.png" alt="product" className={styles.logo3} />
+              <p>.....................................</p>
+            </a>
+          </Link>
+          <Link href="#">
+            <a href="/portfolio" className={styles.card}>
+              <img src="/product.png" alt="product" className={styles.logo3} />
+              <p>.....................................</p>
+            </a>
+          </Link>
+          <Link href="#">
+            <a href="/portfolio" className={styles.card}>
+              <img src="/product.png" alt="product" className={styles.logo3} />
+              <p>.....................................</p>
+            </a>
+          </Link>
+          <Link href="#">
+            <a href="/portfolio" className={styles.card}>
+              <img src="/product.png" alt="product" className={styles.logo3} />
+              <p>.....................................</p>
+            </a>
+          </Link>
 
+        </div>
+      </main>
 
-      <div className={styles.back}><a href="#toppage">INICIO</a></div>
+      <session className={styles.midias}>
+        <a href="https://www.linkedin.com/in/rodneyrinaldi/">linkedin.com/in/rodneyrinaldi/</a>
+        <a href="https://github.com/rodneyrinaldi">github.com/rodneyrinaldi</a>
+      </session>
+
+      <footer className={styles.footer}>
+        <a href="https://adv.rodneyrinaldi.com">adv.rodneyrinaldi.com</a>
+        <a href="https://rodneyrinaldi.com"><img src="/rr-logo.svg"
+          alt="rodneyrinaldi" /></a>
+        <a href="https://dpo.rodneyrinaldi.com">dpo.rodneyrinaldi.com</a>
+      </footer>
 
     </div>
   )

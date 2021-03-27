@@ -34,7 +34,7 @@ export default function Curriculum() {
         </div>
         <div className={styles.col2}>
           <div><strong>Customer Services, Technology, Compliance and Digital Law</strong></div>
-          <div>DPO |PMO | DBA |Developer</div>
+          <div>DPO |PMO | DBA | Developer</div>
         </div>
       </div>
 
@@ -133,8 +133,6 @@ export default function Curriculum() {
           <div><i>... devemos valorizar o homem mais pelas perguntas que pelas respostas, Voltaire</i></div>
         </div>
       </div>
-
-      <div className={styles.back}><a href="#toppage">INICIO</a></div>
 
     </div>
   )

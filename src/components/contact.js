@@ -5,11 +5,12 @@ import styles from './contact.module.css';
 
 function Contact(props) {
   const router = useRouter()
+  const wapp = 'https://api.whatsapp.com/send?phone=11981417040&text=Olá, gostaria de obter maiores informações.'
 
   return (
     <session className={styles.wrapper}>
-      <a onClick={() => router.push('/')}>
-        <img src="/whatsapp.svg" alt="whatsapp" className={styles.icon} />
+      <a href={wapp} target='_blank'>
+        <img src="/whatsapp.svg" alt="whatsapp" className={styles.icon} target="_blank" />
       </a>
       <a onClick={() => router.push('/')}>
         <img src="/arroba.svg" alt="whatsapp" className={styles.icon} />

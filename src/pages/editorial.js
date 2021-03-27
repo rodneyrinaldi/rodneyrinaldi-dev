@@ -18,9 +18,6 @@ export default function Manifesto() {
       <div className={styles.line}>
       </div>
 
-
-      <div className={styles.back}><a href="#toppage">INICIO</a></div>
-
     </div>
   )
 }
