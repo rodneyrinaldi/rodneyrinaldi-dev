@@ -25,7 +25,7 @@ export default function Manifesto() {
           <p>
             Com este manifesto dá-se publicidade ao comprometimento primordial em seguir as melhores e possíveis
             políticas de pesquisa, desenvolvimento, comercialização e suporte a todos os produtos e serviços
-            desempenhados isolada ou compartilhadamente
+            desempenhados isolada ou compartilhadamente.
           </p>
           <p>
             Possuindo como valores essenciais vivenciados em todas as atividades:
