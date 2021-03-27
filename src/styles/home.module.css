@@ -130,6 +130,13 @@
   border-color: rgba(78, 1, 1, 0.467);
 }
 
+.card H2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 3px 0 8px;
+  padding: 0;
+}
+
 .card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
@@ -155,10 +162,9 @@
 }
 
 .logo3 {
-  margin-top: 1vh;
-  width: 12vw;
-  max-width: 160px;
-  margin-top: 26px;
+  width: 6vw;
+  max-width: 60px;
+  margin-top: 12px;
   margin-bottom: 6px;
   opacity: .9;
 }
@@ -210,8 +216,7 @@
   }
 
   .logo3 {
-    width: 30vw;
-    max-width: 400px;
+    width: 12vw;
     margin-top: 26px;
     margin-bottom: 6px;
   }

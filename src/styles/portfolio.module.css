@@ -144,19 +144,19 @@
 }
 
 .logo1 {
-  width: 2.4vw;
+  width: 4vw;
   max-width: 85px;
 }
 
 .logo2 {
   margin-top: 1vh;
-  width: 12vw;
+  width: 20vw;
   max-width: 400px;
 }
 
 .logo3 {
   margin-top: 1vh;
-  width: 12vw;
+  width: 6vw;
   max-width: 160px;
   margin-top: 26px;
   margin-bottom: 6px;
@@ -207,6 +207,14 @@
     padding: 0;
     font-size: 1.05rem;
     line-height: 1.4;
+  }
+
+  .logo1 {
+    width: 9vw;
+  }
+  
+  .logo2 {
+    width: 44vw;
   }
 
   .logo3 {

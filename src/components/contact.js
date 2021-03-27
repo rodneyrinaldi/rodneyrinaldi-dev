@@ -5,7 +5,7 @@ import styles from './contact.module.css';
 
 function Contact(props) {
   const router = useRouter()
-  const wapp = 'https://api.whatsapp.com/send?phone=11981417040&text=Olá, gostaria de obter maiores informações.'
+  const wapp = 'https://api.whatsapp.com/send?phone=+5511981417040&text=Olá, gostaria de obter maiores informações.'
 
   return (
     <session className={styles.wrapper}>

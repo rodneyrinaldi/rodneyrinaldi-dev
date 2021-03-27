@@ -28,6 +28,7 @@ export default function Home() {
           <Link href="/portfolio">
             <a href="/portfolio" className={styles.card}>
               <img src="/portfolio.png" alt="portfolio" className={styles.logo3} />
+              <h2>PORTFÓLIO</h2>
               <p>Consultoria, projetos, arquitetura de software e trabalhos desenvolvidos.</p>
             </a>
           </Link>
@@ -35,6 +36,7 @@ export default function Home() {
           <Link href="/curriculum">
             <a href="/curriculum" className={styles.card}>
               <img src="/curriculo.png" alt="curriculo" className={styles.logo3} />
+              <h2>CURRÍCULO</h2>
               <p>Javascript, ReactJS, React Native, Node.js, Microsoft e Oracle.</p>
             </a>
           </Link>
@@ -42,6 +44,7 @@ export default function Home() {
           <Link href="/manifesto">
             <a href="/manifesto" className={styles.card}>
               <img src="/manifesto.png" alt="manifesto" className={styles.logo3} />
+              <h2>MANIFESTO</h2>
               <p>Princípios vivenciados, evolução ética, eficiente e sustentável.</p>
             </a>
           </Link>
@@ -49,6 +52,7 @@ export default function Home() {
           <Link href="/editorial">
             <a href="/editorial" className={styles.card}>
               <img src="/editorial.png" alt="editorial" className={styles.logo3} />
+              <h2>EDITORIAL</h2>
               <p>Publicações, cursos e materiais educacionais desenvolvidos.</p>
             </a>
           </Link>
