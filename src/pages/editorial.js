@@ -2,6 +2,9 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 import Contact from '../components/contact'
+import Project from '../components/project'
+
+import data from '../data/posts.json'
 
 import styles from '../styles/editorial.module.css'
 
@@ -19,14 +22,23 @@ export default function Editorial() {
         <img src="/rr-logo.svg" alt="rodneyrinaldi" className={styles.logo1} />
         <img src="/rodneyrinaldi.svg" alt="rodneyrinaldi" className={styles.logo2} />
 
-        <h1>EDITORIAL ELETRÔNICO</h1>
+        <h1>MATERIAIS PUBLICADOS</h1>
 
         <div className={styles.grid}>
-          <p>
-            xxx
-          </p>
+          {
+            data.map(function (item) {
+              return (
+                <Project
+                  url={item.url}
+                  alt={item.alt}
+                  pic={item.pic}
+                  title={item.title}
+                  description={item.description}
+                />
+              )
+            })
+          }
         </div>
-
       </main>
 
       <session className={styles.midias}>
