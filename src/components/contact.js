@@ -5,7 +5,7 @@ import styles from './contact.module.css';
 
 function Contact(props) {
   const router = useRouter()
-  const wapp = 'https://api.whatsapp.com/send?phone=+5511981417040&text=Olá, gostaria de obter maiores informações.'
+  const wapp = 'https://api.whatsapp.com/send?phone=+551131646843&text=Olá, gostaria de obter maiores informações.'
 
   return (
     <session className={styles.wrapper}>
@@ -13,7 +13,7 @@ function Contact(props) {
         <img src="/whatsapp.svg" alt="whatsapp" className={styles.icon} target="_blank" />
       </a>
       <a onClick={() => router.push('/')}>
-        <img src="/arroba.svg" alt="whatsapp" className={styles.icon} />
+        <img src="/email.svg" alt="whatsapp" className={styles.icon} />
       </a>
       <a href='#toppage'>
         <img src="/top.svg" alt="go top" className={styles.icon} />

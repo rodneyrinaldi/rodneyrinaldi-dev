@@ -3,7 +3,7 @@ import styles from '../styles/curriculum.module.css'
 
 export default function Curriculum() {
   function handlePhone() {
-    alert('11 98141.7040')
+    alert('551131646843')
   }
 
   return (
@@ -61,7 +61,7 @@ export default function Curriculum() {
         </div>
         <div className={styles.col2}>
           <div><strong>Experiência em negócios</strong>, gerenciamento de grandes projetos para os seguimentos industrial
-          farmacêutico e de consumo; sólidos conhecimentos em desenvolvimento Microsoft; bancos de dados Microsoft e Oracle;
+            farmacêutico e de consumo; sólidos conhecimentos em desenvolvimento Microsoft; bancos de dados Microsoft e Oracle;
             data warehouse e business intelligence; Microsoft, Salesforce e Plusoft Customer Relationship Management; Knowledge Management.</div>
           <div>Competência em lidar com equipes e transações complexas, integrações, treinamentos, concorrência e gestão de contas e terceiros.</div>
           <div>Especialista certificado Microsoft e Plusoft Customer Relationship Management, intimidade com as plataformas Business Intelligence Cognos e Microsoft.</div>

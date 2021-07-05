@@ -83,6 +83,8 @@
 }
 
 .code {
+  max-width: 800px;
+  text-align: center;
   background: #fafafa;
   border-radius: 5px;
   color: darkred;
@@ -175,7 +177,7 @@
   }
   
   .main {
-    padding: 2rem 0 0;
+    padding: 2rem 0 1.4rem;
   }
 
   .midias a {
@@ -203,7 +205,7 @@
   .card {
     margin: 0 0 1.4rem;
     padding: 0 1.2rem;
-    text-align: center;
+    margin-bottom: 10px;
     border: none;
   }
   .card h3 {
