@@ -5,7 +5,7 @@
 
   position: fixed;
   z-index:100;
-  top:10%;
+  top:12%;
   right: -60px;
 }
 .wrapperTop  a img {
@@ -54,7 +54,7 @@
   .wrapperTop {
     margin-right: 6px;
     right: 0;
-    top:7%;
+    top:14%;
   }
   .wrapperBottom {
     margin-right: 6px;
