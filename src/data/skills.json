@@ -1,26 +1,89 @@
 [
   {
-    "url":"#","alt":"","pic":"/skills/javascript.svg"
+    "alt":"git","pic":"/skills/git.svg"
   },
   {
-    "url":"#","alt":"","pic":"/skills/typescript.svg"
+    "alt":"github","pic":"/skills/github.svg"
   },
   {
-    "url":"#","alt":"","pic":"/skills/nodejs.svg"
+    "alt":"vercel","pic":"/skills/vercel.svg"
   },
   {
-    "url":"#","alt":"","pic":"/skills/reactjs.svg"
+    "alt":"heroku","pic":"/skills/heroku.svg"
   },
   {
-    "url":"#","alt":"","pic":"/skills/nextjs.svg"
+    "alt":"netlify","pic":"/skills/netlify.svg"
   },
   {
-    "url":"#","alt":"","pic":"/skills/csharp.svg"
+    "alt":"firebase","pic":"/skills/firebase.svg"
   },
   {
-    "url":"#","alt":"","pic":"/skills/dotnet.svg"
+    "alt":"docker","pic":"/skills/docker.svg"
   },
   {
-    "url":"#","alt":"","pic":"/skills/mongodb.svg"
+    "alt":"javascript","pic":"/skills/javascript.svg"
+  },
+  {
+    "alt":"typescript","pic":"/skills/typescript.svg"
+  },
+  {
+    "alt":"node","pic":"/skills/nodejs.svg"
+  },
+  {
+    "alt":"react","pic":"/skills/reactjs.svg"
+  },
+  {
+    "alt":"reactexpo","pic":"/skills/reactexpo.svg"
+  },
+  {
+    "alt":"electron","pic":"/skills/electron.svg"
+  },
+  {
+    "alt":"next","pic":"/skills/nextjs.svg"
+  },
+  {
+    "alt":"nest","pic":"/skills/nestjs.svg"
+  },
+  {
+    "alt":"c#","pic":"/skills/csharp.svg"
+  },
+  {
+    "alt":"dotnet","pic":"/skills/dotnet.svg"
+  },
+  {
+    "alt":"dotnetcore","pic":"/skills/dotnetcore.svg"
+  },
+  {
+    "alt":"sqlserver","pic":"/skills/sqlserverdb.svg"
+  },
+  {
+    "alt":"mysql","pic":"/skills/mysqldb.svg"
+  },
+  {
+    "alt":"oracle","pic":"/skills/oracledb.svg"
+  },
+  {
+    "alt":"postgres","pic":"/skills/postgresdb.svg"
+  },
+  {
+    "alt":"mongodb","pic":"/skills/mongodb.svg"
+  },
+  {
+    "alt":"redis","pic":"/skills/redisdb.svg"
+  },
+  {
+    "alt":"jest","pic":"/skills/jest.svg"
+  },
+  {
+    "alt":"cleancode","pic":"/skills/cleancode.svg"
+  },
+  {
+    "alt":"ddd","pic":"/skills/ddd.svg"
+  },
+  {
+    "alt":"bdd","pic":"/skills/bdd.svg"
+  },
+  {
+    "alt":"tdd","pic":"/skills/tdd.svg"
   }
 ]
