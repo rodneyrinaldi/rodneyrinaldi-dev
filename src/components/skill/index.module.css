@@ -1,5 +1,4 @@
 .card {
-  margin: 1rem;
   padding: 1rem;
   flex-basis: 16%;
   text-align: center;
@@ -18,7 +17,6 @@
 
 @media (max-width: 600px) {
   .card {
-    margin: 0 0 1.4rem;
     padding: 0 1rem;
     text-align: center;
   }
