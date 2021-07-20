@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from '../../components/layout'
 import Title from '../../components/title'
-import Project from '../../components/project'
+import Skill from '../../components/skill'
 
 import data from '../../data/skills.json'
 
@@ -17,12 +17,10 @@ function Skills() {
           {
             data.map(function (item) {
               return (
-                <Project
+                <Skill
                   url={item.url}
                   alt={item.alt}
                   pic={item.pic}
-                  title={item.title}
-                  description={item.description}
                 />
               )
             })

@@ -1,42 +1,26 @@
 [
   {
-    "url":"#","alt":"","pic":"/skills/javascript.svg",
-    "title":"Javascript",
-    "description":""
+    "url":"#","alt":"","pic":"/skills/javascript.svg"
   },
   {
-    "url":"#","alt":"","pic":"/skills/typescript.svg",
-    "title":"Typescript",
-    "description":""
+    "url":"#","alt":"","pic":"/skills/typescript.svg"
   },
   {
-    "url":"#","alt":"","pic":"/skills/nodejs.svg",
-    "title":"Node",
-    "description":""
+    "url":"#","alt":"","pic":"/skills/nodejs.svg"
   },
   {
-    "url":"#","alt":"","pic":"/skills/reactjs.svg",
-    "title":"React",
-    "description":""
+    "url":"#","alt":"","pic":"/skills/reactjs.svg"
   },
   {
-    "url":"#","alt":"","pic":"/skills/nextjs.svg",
-    "title":"Next",
-    "description":""
+    "url":"#","alt":"","pic":"/skills/nextjs.svg"
   },
   {
-    "url":"#","alt":"","pic":"/skills/csharp.svg",
-    "title":"C#",
-    "description":""
+    "url":"#","alt":"","pic":"/skills/csharp.svg"
   },
   {
-    "url":"#","alt":"","pic":"/skills/dotnet.svg",
-    "title":"DotNet",
-    "description":""
+    "url":"#","alt":"","pic":"/skills/dotnet.svg"
   },
   {
-    "url":"#","alt":"","pic":"/skills/mongodb.svg",
-    "title":"MongoDB",
-    "description":""
+    "url":"#","alt":"","pic":"/skills/mongodb.svg"
   }
 ]
