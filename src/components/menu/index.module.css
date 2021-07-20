@@ -43,7 +43,11 @@
 @media (max-width: 600px) {
   .card {
     border: none;
-    padding: 0rem 0  1.2rem;
+    margin: 4px;
+    padding: 0;
     flex-basis: 80%;
   }
+  .card p {
+    display: none;
+  }  
 }
