@@ -43,9 +43,13 @@
 @media (max-width: 600px) {
   .card {
     border: none;
-    margin: 4px;
+    margin: 8px;
     padding: 0;
     flex-basis: 80%;
+  }
+  .card h2 {
+    font-size: .9rem;
+    font-weight: 600;
   }
   .card p {
     display: none;
