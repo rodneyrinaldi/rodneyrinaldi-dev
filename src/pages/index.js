@@ -8,7 +8,7 @@ import styles from '../styles/index.module.css'
 function Index() {
   return (
     <>
-      <Layout showback='no'>
+      <Layout showback='no' showcard='yes'>
         <div className={styles.grid}>
           <Menu
             url='/skills'

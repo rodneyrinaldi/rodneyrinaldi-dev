@@ -5,11 +5,11 @@ import Main from '../main'
 import Sidebar from '../sidebar'
 import Footer from '../footer'
 
-function Layout({ children, showback }) {
+function Layout({ children, showback, showcard }) {
 
   return (<>
     <header>
-      <Header />
+      <Header showcard={showcard} />
     </header>
 
     <main>
