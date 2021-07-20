@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router'
 
-import styles from './contact.module.css';
+import styles from './index.module.css';
 
 function Contact(props) {
   const router = useRouter()
