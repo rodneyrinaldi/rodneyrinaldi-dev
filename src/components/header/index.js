@@ -13,7 +13,7 @@ function Header() {
     </Head>
     <div className={styles.container}>
       <div>
-        <img src="/rr-logo.svg" alt="rodneyrinaldi" className={styles.logo1} />
+        <img src="/rr-dev.svg" alt="rodneyrinaldi" className={styles.logo1} />
       </div>
       <div >
         <img src="/rodneyrinaldi.svg" alt="rodneyrinaldi" className={styles.logo2} />

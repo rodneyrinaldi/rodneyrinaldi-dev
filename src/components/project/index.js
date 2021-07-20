@@ -7,7 +7,7 @@ function Project({ url, alt, pic, title, description }) {
   return (
     <Link href={url}>
       <a href={url} className={styles.card}>
-        {/* <img src={pic} alt={alt} className={styles.logo} /> */}
+        <img src={pic} alt={alt} className={styles.logo} />
         <h2>{title}</h2>
         <p>{description}</p>
       </a>

@@ -16,28 +16,28 @@ function Index() {
             alt='competências'
             pic='/menu/skills.png'
             title='COMPETÊNCIAS'
-            description='Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs'
+            description='Conhecimentos em programação backend, frontend e mobile. Banco de dados relacionais e não relacionais. Habilidades em projeto e arquitetura de sistemas. Atitude autodidata, proativa e disciplinada.'
           />
           <Menu
             url='/curriculum'
             alt='curriculum'
             pic='/menu/curriculo.png'
             title='CURRÍCULO'
-            description='Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.'
+            description='Dados pessoais, histórico profissional, projetos e desafios. Formação acadêmica e desenvolvimento pessoal autodidata.'
           />
           <Menu
             url='/portfolio'
             alt='portfolio'
             pic='/menu/portfolio.png'
             title='PORTFÓLIO'
-            description='Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.'
+            description='Carteira de projetos arquitetados, desenvolvidos e implantados em ordem cronológica de entrega.'
           />
           <Menu
             url='/manifest'
             alt='manifesto'
             pic='/menu/manifesto.png'
             title='MANIFESTO'
-            description='Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.'
+            description='Compromisso aberto de qualidade, segurança e sustentbiliade. Missão, visão e valores aplicados. Compromisso com a conformidade e privacidade na pesquisa e desenvolvimento.'
           />
         </div>
       </Layout>

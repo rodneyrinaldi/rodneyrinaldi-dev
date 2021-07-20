@@ -1,7 +1,7 @@
 .container {
   display: block;
   max-width: 600px;
-  padding: 3vh 0 0 0;
+  padding: 3vh 0 3vh;
   text-align: center;
   color: var(--red1);
 }

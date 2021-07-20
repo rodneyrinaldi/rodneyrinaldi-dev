@@ -4,7 +4,7 @@ import Layout from '../../components/layout'
 import Title from '../../components/title'
 import Project from '../../components/project'
 
-import data from '../../data/projects.json'
+import data from '../../data/skills.json'
 
 import styles from './index.module.css'
 

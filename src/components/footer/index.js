@@ -7,7 +7,7 @@ function Footer() {
     <>
       <div className={styles.container}>
         <a href="https://adv.rodneyrinaldi.com">adv.rodneyrinaldi.com</a>
-        <a href="https://rodneyrinaldi.com"><img src="/rr-logo.svg"
+        <a href="https://rodneyrinaldi.com"><img src="/rr-ico.svg"
           alt="rodneyrinaldi" /></a>
         <a href="https://dpo.rodneyrinaldi.com">dpo.rodneyrinaldi.com</a>
       </div>

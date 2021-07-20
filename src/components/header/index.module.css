@@ -4,16 +4,19 @@
   padding-top: 4vh;
 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items:center;
 }
 
 .logo1 {
-  width: 44px;
+  width: 30px;
+  margin-top: 5px;
+  margin-right: .8vw;
 }
 .logo2 {
-  width: 180px;
+  width: 240px;
+  margin-left: .8vw;
 }
 
 @media (max-width: 600px) {  
