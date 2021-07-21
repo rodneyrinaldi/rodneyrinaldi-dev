@@ -44,8 +44,9 @@
   .card {
     border: none;
     margin: 8px;
-    padding: 0;
-    flex-basis: 80%;
+    padding: 4vh 0 0;
+    flex-basis: 34%;
+    /* flex-basis: 80%; */
   }
   .card h2 {
     font-size: .9rem;
@@ -54,4 +55,9 @@
   .card p {
     display: none;
   }  
+
+  .logo {
+    width: 3vw;
+    min-width: 36px;
+  }
 }
