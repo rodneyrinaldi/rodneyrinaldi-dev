@@ -20,7 +20,7 @@ function Index() {
           <Menu
             url='/curriculum'
             alt='curriculum'
-            pic='/menu/curriculo.png'
+            pic='/menu/curriculum.png'
             title='CURRÍCULO'
             description='Dados pessoais, histórico profissional, projetos e desafios. Formação acadêmica e desenvolvimento pessoal autodidata.'
           />
@@ -34,7 +34,7 @@ function Index() {
           <Menu
             url='/manifest'
             alt='manifesto'
-            pic='/menu/manifesto.png'
+            pic='/menu/manifest.png'
             title='MANIFESTO'
             description='Compromisso aberto de qualidade, segurança e sustentbiliade. Missão, visão e valores aplicados. Compromisso com a conformidade e privacidade na pesquisa e desenvolvimento.'
           />

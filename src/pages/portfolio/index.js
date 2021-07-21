@@ -2,9 +2,11 @@ import React from 'react'
 
 import Layout from '../../components/layout'
 import Title from '../../components/title'
+import Brands from '../../components/brands'
 import Project from '../../components/project'
 
-import data from '../../data/projects.json'
+import data from '../../data/brands.json'
+import data2 from '../../data/projects.json'
 
 import styles from './index.module.css'
 
@@ -12,10 +14,26 @@ function Portifolio() {
   return (
     <>
       <Layout showback='yes'>
+
         <Title title="PORTFOLIO" />
+
         <div className={styles.row}>
           {
             data.map(function (item) {
+              return (
+                <Brands
+                  url={item.url}
+                  alt={item.alt}
+                  pic={item.pic}
+                />
+              )
+            })
+          }
+        </div>
+
+        <div className={styles.row2}>
+          {
+            data2.map(function (item) {
               return (
                 <Project
                   url={item.url}
@@ -28,6 +46,7 @@ function Portifolio() {
             })
           }
         </div>
+
       </Layout>
     </>
   )

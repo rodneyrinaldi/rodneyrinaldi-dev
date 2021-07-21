@@ -17,9 +17,9 @@ function Job() {
             <br />
             <p>Cordialmente,</p>
             <p>Rodney Rinaldi</p>
-            <Link href='/'>
-              <a href='/' style={{ textDecoration: 'underline' }}>
-                dev.rodneyrinaldi.com
+            <Link href='/portfolio'>
+              <a href='/portfolio'>
+                http://dev.rodneyrinaldi.com/portfolio
               </a>
             </Link>
           </div>

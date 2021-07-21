@@ -15,6 +15,14 @@
   font-size: 1rem;
   text-align: justify;
 }
+.row a {
+  margin: 14px 0 0;
+  padding: 0;
+  line-height: 1rem;
+  font-size: .9rem;
+  text-align: justify;
+  text-decoration: underline;
+}
 
 @media (max-width: 600px) {
   .row {
@@ -26,5 +34,11 @@
     padding: 0;
     line-height: 1rem;
     font-size: .9rem;
+  }
+  .row a {
+    margin: 14px 0 0;
+    padding: 0;
+    line-height: .9rem;
+    font-size: .8rem;
   }
 }
