@@ -15,13 +15,11 @@ function Job() {
             <p>Informo ainda que tenho disponibilidade para viagens.</p>
             <p>No aguardo de um contato, coloco-me à disposição.</p>
             <br />
-            <br />
             <p>Cordialmente,</p>
             <p>Rodney Rinaldi</p>
-            <br />
             <Link href='/'>
-              <a href='/'>
-                http://dev.rodneyrinaldi.com
+              <a href='/' style={{ textDecoration: true }}>
+                dev.rodneyrinaldi.com
               </a>
             </Link>
           </div>

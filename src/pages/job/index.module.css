@@ -4,13 +4,16 @@
   align-items: left;
   justify-content:baseline;
   flex-wrap: wrap;
-  max-width: 90vw;
+  max-width: 100vw;
   margin: 50px 0 0 5vw;
-  padding: 0;
+  padding: 1vh 8vw;
 }
 .row p {
   margin: 14px 0 0;
   padding: 0;
+  line-height: 1.1rem;
+  font-size: 1rem;
+  text-align: justify;
 }
 
 @media (max-width: 600px) {
@@ -18,4 +21,10 @@
     width: 400px;
     margin: 5px 0 0;
   }  
+  .row p {
+    margin: 14px 0 0;
+    padding: 0;
+    line-height: 1rem;
+    font-size: .9rem;
+  }
 }
