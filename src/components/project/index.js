@@ -8,8 +8,10 @@ function Project({ url, alt, pic, title, description }) {
     <Link href={url}>
       <a href={url} className={styles.card}>
         <img src={pic} alt={alt} className={styles.logo} />
-        <h2>{title}</h2>
-        <p>{description}</p>
+        <div>
+          <h2>{title}</h2>
+          <p>{description}</p>
+        </div>
       </a>
     </Link>
   );
