@@ -46,6 +46,8 @@ function Email(props) {
     setName('')
     setEmail('')
     setMessage('')
+
+    router.back()
   }
 
   return (
