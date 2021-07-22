@@ -16,7 +16,7 @@
   text-align: justify;
 }
 .row a {
-  margin: 14px 0 0;
+  margin: 4px 0 0;
   padding: 0;
   line-height: 1rem;
   font-size: .9rem;
@@ -36,8 +36,9 @@
     font-size: .9rem;
   }
   .row a {
-    margin: 14px 0 0;
+    margin: 0;
     padding: 0;
+    margin: 4px 0 0;
     line-height: .9rem;
     font-size: .8rem;
   }

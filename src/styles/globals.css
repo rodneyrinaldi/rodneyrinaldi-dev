@@ -1,3 +1,9 @@
+:root { 
+  --color-text: #9C98A6;
+  --color-background: #F0F0F7;
+  --width-logo: 100px;
+}
+
 html,
 body,
 input,

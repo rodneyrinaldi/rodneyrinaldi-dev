@@ -45,7 +45,7 @@ export default function Curriculum() {
             <div><strong>COMPETÊNCIA</strong></div>
           </div>
           <div className={styles.col2}>
-            <div><strong>
+            <div><strong className={styles.col2e}>
               PROJECT MANAGEMENT, SCRUM, PMBOK,
               SOFTWARE ARCHITECTURE, ASP.NET,
               OFFICE MACROS, DASHBOARDS,
