@@ -4,12 +4,15 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
-  margin-top: 0;
+  max-height: 65vh;
+  margin: 0 0 3vh;
+  overflow-y: scroll; 
+  border: 1px solid #c1c1c1;
 }
 
 @media (max-width: 600px) {
   .row {
-    width: 96%;
-    margin-top: .5rem;
+    width: 80%;
+    margin: 1vh 4vw 2vh 0;
   }  
 }

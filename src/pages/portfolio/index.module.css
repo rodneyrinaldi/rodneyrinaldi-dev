@@ -4,7 +4,10 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
-  margin-top: 0;
+  max-height: 34vh;
+  margin: 1vh 4vw 2vh 0;
+  overflow-y: scroll; 
+  border: 1px solid #c1c1c1;
 }
 
 .row2 {
@@ -13,26 +16,25 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
-  margin: 0;
+  margin: 1vh 4vw 2vh 0;
 }
 .row2 p {  
   margin: 0;
   padding: 0 5rem 2rem;
   font-size: clamp(.4em, .6em + 1vw, 1.4em);
   line-height: 1.6;
-  text-align: justify;
 }
 
 @media (max-width: 600px) {
   .row {
-    width: 96%;
-    margin-top: .5rem;
+    width: 80%;
+    margin: 1vh 4vw 2vh 0;
   }  
 
   .row2 {
-    width: 96%;
+    width: 97%;
     flex-direction: column;
-    margin-top: 1rem;
+    margin: 1vh 5vw 1vh 0;
   }  
   .row2 p {  
     margin: 0;
