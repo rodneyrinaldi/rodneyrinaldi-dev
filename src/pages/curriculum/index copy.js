@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Contact from '../../components/contact'
 import Layout from '../../components/layout'
 import Title from '../../components/title'
 
@@ -31,11 +32,11 @@ export default function Curriculum() {
 
         <div className={styles.line}>
           <div className={styles.col1}>
-            <div><strong>OBJETIVO</strong></div>
+            <div><strong>OBJETIVOS</strong></div>
           </div>
           <div className={styles.col2}>
-            <div><strong>Arquitetura e desenvolvimento de sistemas</strong></div>
-            {/* <div>Developer</div> */}
+            <div><strong>Customer Services, Technology, Compliance and Digital Law</strong></div>
+            <div>DPO |PMO | DBA | Developer</div>
           </div>
         </div>
 
@@ -46,9 +47,12 @@ export default function Curriculum() {
           <div className={styles.col2}>
             <div><strong className={styles.col2e}>
               PROJECT MANAGEMENT, SCRUM, PMBOK,
-              SOFTWARE ARCHITECTURE, ASP.NET, JAVASCRIPT, NODE, REACT,
-              DATABASE ORACLE, SQLSERVER, POSTGRES, MONGO, REDIS, DATA ANALYSIS, BI, DW,
-              CRM SALESFORCE, DYNAMICS, PLUSOFT
+              SOFTWARE ARCHITECTURE, ASP.NET,
+              OFFICE MACROS, DASHBOARDS,
+              DATABASE MANAGEMENT, ORACLE, SQLSERVER, DATA ANALYSIS, BI, DW, COGNOS, POWER BI,
+              CUSTOMER MANAGEMENT, SALESFORCE CRM, DYNAMICS CRM, PLUSOFT CRM,
+              DIGITAL LAW, COMPLIANCE, CIVIL RIGHTS, BUSINESS LAWS, DIGITAL LAWS,
+              PHARMACEUTICAL MARKET, CONSUMER MARKET
             </strong></div>
           </div>
         </div>
@@ -71,14 +75,14 @@ export default function Curriculum() {
             <div><strong>FORMAÇÃO</strong></div>
           </div>
           <div className={styles.col2}>
-            <div><strong>Pós Gestão de Projetos e Portfólios</strong> Universidade Anhembi Morumbi, 2018 </div>
-            <div><strong>Especialização</strong> Business Intelligence FMU 2015</div>
-            <div><strong>Engenharia</strong> Univ. Santa Cecília dos Bandeirantes, UNICEB 1992</div>
-            <div><strong>MBA Gestão de Negócios Estratégicos</strong> Universidade Anhanguera, 2014</div>
-            <div><strong>Pós Direito Constitucional</strong> Faculdade Legale, 2021</div>
-            <div><strong>Pós Direito Processual Civil</strong> Escola Paulista de Direito, EPD 2017</div>
-            <div><strong>Pós Direito Digital</strong> Faculdades Metropolitanas Unidas, FMU 2016</div>
-            <div><strong>Direito</strong> Universidade Bandeirante, UNIBAN 2011 </div>
+            <div><strong>Pós em Direito Constitucional</strong> – Faculdade Legale, 2021</div>
+            <div><strong>Pós em Gestão de Projetos e Portfólios</strong> – Universidade Anhembi Morumbi, 2018 </div>
+            <div><strong>Pós em Direito Processual Civil</strong> – Escola Paulista de Direito, EPD 2017</div>
+            <div><strong>Pós em Direito Digital</strong> – Faculdades Metropolitanas Unidas, FMU 2016</div>
+            <div><strong>Especialização</strong> – Business Intelligence FMU 2015</div>
+            <div><strong>MBA em Gestão de Negócios Estratégicos</strong> – Universidade Anhanguera, 2014</div>
+            <div><strong>Bacharelado Direito</strong> – Universidade Bandeirante, UNIBAN 2011 </div>
+            <div><strong>Bacharelado Engenharia</strong> – Univ. Santa Cecília dos Bandeirantes, UNICEB 1992</div>
           </div>
         </div>
 

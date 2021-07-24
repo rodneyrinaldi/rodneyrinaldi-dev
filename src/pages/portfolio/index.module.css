@@ -6,7 +6,7 @@
   max-width: 800px;
   max-height: 34vh;
   margin: 1vh 4vw 2vh 0;
-  overflow-y: scroll; 
+  overflow: auto; 
   border: 1px solid #c1c1c1;
 }
 
