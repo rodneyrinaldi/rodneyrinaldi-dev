@@ -45,10 +45,10 @@ export default function Curriculum() {
           </div>
           <div className={styles.col2}>
             <div><strong className={styles.col2e}>
-              PROJECT MANAGEMENT, SCRUM, PMBOK,
-              SOFTWARE ARCHITECTURE, ASP.NET, JAVASCRIPT, NODE, REACT,
+              SOFTWARE ARCHITECTURE, .NET, JAVASCRIPT, NODE, REACT,
               DATABASE ORACLE, SQLSERVER, POSTGRES, MONGO, REDIS, DATA ANALYSIS, BI, DW,
-              CRM SALESFORCE, DYNAMICS, PLUSOFT
+              CRM DYNAMICS, SALESFORCE,  PLUSOFT,
+              PROJECT MANAGEMENT, SCRUM, PMBOK
             </strong></div>
           </div>
         </div>
@@ -58,11 +58,12 @@ export default function Curriculum() {
             <div><strong>PERFIL</strong></div>
           </div>
           <div className={styles.col2}>
-            <div><strong>Experiência em negócios</strong>, gerenciamento de grandes projetos para os segmentos industrial
-              farmacêutico e de consumo; sólidos conhecimentos em desenvolvimento Microsoft; bancos de dados Microsoft e Oracle;
-              data warehouse e business intelligence; Microsoft, Salesforce e Plusoft Customer Relationship Management; Knowledge Management.</div>
-            <div>Competência em lidar com equipes e transações complexas, integrações, treinamentos, concorrência e gestão de contas e terceiros.</div>
-            <div>Especialista certificado Microsoft e Plusoft Customer Relationship Management, intimidade com as plataformas Business Intelligence Cognos e Microsoft.</div>
+            <div>Gerenciamento, arquitetura e desenvolvimento de grandes projetos
+              para os segmentos industrial farmacêutico e de consumo; plataformas .NET,
+              Javascript, Node, React; bancos de dados Oracle, SqlServer, Postgres, MongoDb e
+              Redis; data warehouse e business intelligence; CRM Microsoft, Plusoft e Salesforce.</div>
+            <div>Trabalho em equipe, transações complexas, integrações e treinamentos.</div>
+            <div>Certificação Microsoft e Plusoft Customer Relationship Management.</div>
           </div>
         </div>
 
@@ -87,8 +88,8 @@ export default function Curriculum() {
             <div><strong>HISTÓRICO</strong></div>
           </div>
           <div className={styles.col2}>
-            <div><strong>Direta Consultoria – Gerente de contas e projetos, 14 anos e 11 meses.</strong></div>
-            <div>Gerente de projeto do sistema de atendimento a clientes para Merck Sharp Brasil, México, Chile e Argentina. Gerente de projeto para sistemas para Pepsico Brasil, Bristol Myers e Byk-Altana Farma. Arquiteto das interfaces do contact center com a força de vendas e faturamento para Merck Sharp e e-Pharma, Merck Sharp e Pluris Mídia. Automatizar os departamentos de Residência Medica e Produção Científica para a Faculdade de Medicina de São Paulo. Administrar os bancos de dados Oracle para Hilton Hotéis, Serma Assistência Médica, Spread Teleinformática, Medcard Saúde e São Roque Internet.</div>
+            <div><strong>Direta Consultoria – Arquiteto e líder de projetos, 14 anos e 11 meses.</strong></div>
+            <div>Arquiteto e desenvolvedor do sistema de atendimento a clientes para Merck Sharp & Dhome para o Brasil, México, Chile e Argentina. Arquiteto e desenvolvedor contact center para Pepsico Brasil, Bristol Myers e Byk-Altana Farma. Arquiteto das interfaces do contact center com a força de vendas e faturamento para Merck Sharp e e-Pharma, Merck Sharp e Pluris Mídia. Arquiteto e desenvolvedor do sistema de provas para o  departamentos de Residência Medica e Produção Científica para a Faculdade de Medicina de São Paulo. Administrador dos bancos de dados Oracle para Hilton Hotéis, Serma Assistência Médica, Spread Teleinformática, Medcard Saúde e São Roque Internet.</div>
             <div><strong>Bayer – Customer Service Coordinator CRM e BI, 5 anos e 11 meses.</strong></div>
             <div>Local Process Owner Salesforce Project Brasil, responsável pela documentação técnica local, suporte, treinamento e interface com a global na Alemanha. Desenvolvimento do Data Warehouse e Business Intelligence do Contact Center, responsável pelo desenvolvimento e gestão da central de atendimento de serviços veterinários utilizando o sistema SAP CRM. </div>
             <div><strong>Plusoft Informática</strong> – Gerente de Projetos e CRM, 10 anos e 2 meses.</div>

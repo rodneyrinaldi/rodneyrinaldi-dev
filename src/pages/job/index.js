@@ -13,7 +13,7 @@ function Job() {
             <p>
               Meu nome é Rodney, fui desenvolvedor client / server na plataforma Microsoft durante os anos 90 e 2000.
               Me atualizei e estou codando no ecossistema Javascript / Node / React.
-              Também fui dba Oracle, experiente em SqlServer e atualizado nos bancos Postgres/Mongo/Redis.
+              Também fui dba Oracle, experiente em SqlServer e atualizado nos bancos Postgres / Mongo / Redis.
             </p>
             <p>
               De volta ao desenvolvimento procuro uma oportunidade que me permita pegar o rítimo novamente.
