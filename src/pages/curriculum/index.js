@@ -74,8 +74,8 @@ export default function Curriculum() {
           <div className={styles.col2}>
             <div><strong>Pós Gestão de Projetos e Portfólios</strong> Universidade Anhembi Morumbi, 2018 </div>
             <div><strong>Especialização</strong> Business Intelligence FMU 2015</div>
-            <div><strong>Engenharia</strong> Univ. Santa Cecília dos Bandeirantes, UNICEB 1992</div>
             <div><strong>MBA Gestão de Negócios Estratégicos</strong> Universidade Anhanguera, 2014</div>
+            <div><strong>Engenharia</strong> Univ. Santa Cecília dos Bandeirantes, UNICEB 1992</div>
             <div><strong>Pós Direito Constitucional</strong> Faculdade Legale, 2021</div>
             <div><strong>Pós Direito Processual Civil</strong> Escola Paulista de Direito, EPD 2017</div>
             <div><strong>Pós Direito Digital</strong> Faculdades Metropolitanas Unidas, FMU 2016</div>
