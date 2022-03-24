@@ -4,9 +4,9 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
-  max-height: 34vh;
+  max-height: auto;
   margin: 1vh 4vw 2vh 0;
-  overflow: auto; 
+  overflow: auto;
   border: 1px solid #c1c1c1;
 }
 
@@ -18,10 +18,10 @@
   max-width: 800px;
   margin: 1vh 4vw 2vh 0;
 }
-.row2 p {  
+.row2 p {
   margin: 0;
   padding: 0 5rem 2rem;
-  font-size: clamp(.4em, .6em + 1vw, 1.4em);
+  font-size: clamp(0.4em, 0.6em + 1vw, 1.4em);
   line-height: 1.6;
 }
 
@@ -29,14 +29,14 @@
   .row {
     width: 80%;
     margin: 1vh 4vw 2vh 0;
-  }  
+  }
 
   .row2 {
     width: 97%;
     flex-direction: column;
     margin: 1vh 5vw 1vh 0;
-  }  
-  .row2 p {  
+  }
+  .row2 p {
     margin: 0;
     padding: 0 1.4rem 2rem 1.4rem;
   }

@@ -14,7 +14,7 @@
   align-items: center;
 }
 .container a {
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 600;
   display: flex;
   padding: 0 6px;
@@ -23,22 +23,21 @@
   color: var(--red1);
 }
 .container p {
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 500;
   display: flex;
-  padding: 10px 6px 20px;
+  padding: 30px 6px 20px;
 }
-
 
 @media (max-width: 600px) {
   .container a {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
   .container a {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
   .container p {
-    font-size: .7rem;
+    font-size: 0.7rem;
     padding: 20px 6px 20px;
   }
 }

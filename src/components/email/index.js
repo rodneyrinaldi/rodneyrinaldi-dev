@@ -1,23 +1,22 @@
-import { useState } from 'react'
-import { useRouter } from 'next/router'
-import Link from 'next/link'
-import emailjs from 'emailjs-com'
-
-import styles from './index.module.css'
+import emailjs from "emailjs-com";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import { useState } from "react";
+import styles from "./index.module.css";
 
 function Email(props) {
-  const router = useRouter()
+  const router = useRouter();
 
-  const [name, setName] = useState("")
-  const [email, setEmail] = useState("")
-  const [message, setMessage] = useState("")
-  const [policie, setPolicie] = useState("")
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [policie, setPolicie] = useState("");
 
   // const { query: { service }, } = router
-  const service = 'fale conosco dev.rodneyrinaldi.com'
+  const service = "fale conosco dev.rodneyrinaldi.com";
 
   function handleSubmit(e) {
-    e.preventDefault()
+    e.preventDefault();
 
     // console.log('props')
     // console.log(props.emailjsServiceId)
@@ -28,27 +27,36 @@ function Email(props) {
     // console.log(process.env.EMAILJS_TEMPLATE_ID)
     // console.log(process.env.EMAILJS_USER_ID)
 
-    const fields = `{name:${name}, email:${email}, message:${message}}`
-    const params = { sitename: service, emailaddress: email, emailmessage: fields }
+    const fields = `{name:${name}, email:${email}, message:${message}}`;
+    const params = {
+      sitename: service,
+      emailaddress: email,
+      emailmessage: fields,
+    };
 
     //return
 
-    emailjs.send(
-      process.env.EMAILJS_SERVICE_ID,
-      process.env.EMAILJS_TEMPLATE_ID,
-      params,
-      process.env.EMAILJS_USER_ID
-    ).then((result) => {
-      console.log(result.text)
-    }, (error) => {
-      console.log(error.text)
-    })
+    emailjs
+      .send(
+        process.env.EMAILJS_SERVICE_ID,
+        process.env.EMAILJS_TEMPLATE_ID,
+        params,
+        process.env.EMAILJS_USER_ID
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
 
-    setName('')
-    setEmail('')
-    setMessage('')
+    setName("");
+    setEmail("");
+    setMessage("");
 
-    router.back()
+    router.back();
   }
 
   return (
@@ -56,39 +64,50 @@ function Email(props) {
       <div className={styles.container}>
         <div>
           <form onSubmit={handleSubmit}>
-
             <label htmlFor="contactName">Nome</label>
-            <input type="text" id="contactName"
-              onChange={e => setName(e.target.value)}
+            <input
+              type="text"
+              id="contactName"
+              onChange={(e) => setName(e.target.value)}
             />
 
             <label htmlFor="contactEmail">Email</label>
-            <input type="email" id="contactEmail"
-              onChange={e => setEmail(e.target.value)}
+            <input
+              type="email"
+              id="contactEmail"
+              onChange={(e) => setEmail(e.target.value)}
             />
 
             <label htmlFor="contactMessage">Mensagem</label>
-            <textarea id="contactMessage"
-              onChange={e => setMessage(e.target.value)}
+            <textarea
+              id="contactMessage"
+              onChange={(e) => setMessage(e.target.value)}
             />
 
-            <input type="submit" value="E N V I A R" className={styles.goForward} />
+            <input
+              type="submit"
+              value="E N V I A R"
+              className={styles.goForward}
+            />
 
             <p>
-              <input type="checkbox" id="myCheck"
-                onChange={e => setPolicie(e.target.value)}
+              <input
+                type="checkbox"
+                id="myCheck"
+                onChange={(e) => setPolicie(e.target.value)}
               />
-              Concordo com a {' '}
+              Concordo com a{" "}
               <Link href="/policies">
-                <a href="#" style={{ textDecoration: 'underline' }}>Política de Privacidade e Proteção de Dados</a>
+                <a style={{ textDecoration: "underline" }}>
+                  Política de Privacidade e Proteção de Dados
+                </a>
               </Link>
             </p>
-
           </form>
         </div>
       </div>
     </>
-  )
+  );
 }
 
 export async function getStaticProps() {
@@ -100,12 +119,10 @@ export async function getStaticProps() {
     props: {
       emailjsServiceId: process.env.EMAILJS_SERVICE_ID,
       emailjsTemplateId: process.env.EMAILJS_TEMPLATE_ID,
-      emailjsUserId: process.env.EMAILJS_USER_ID
+      emailjsUserId: process.env.EMAILJS_USER_ID,
     },
-    query: {
-
-    }
-  }
+    query: {},
+  };
 }
 
 export async function getServerProps() {
@@ -117,13 +134,10 @@ export async function getServerProps() {
     props: {
       emailjsServiceId: process.env.EMAILJS_SERVICE_ID,
       emailjsTemplateId: process.env.EMAILJS_TEMPLATE_ID,
-      emailjsUserId: process.env.EMAILJS_USER_ID
+      emailjsUserId: process.env.EMAILJS_USER_ID,
     },
-    query: {
-
-    }
-  }
+    query: {},
+  };
 }
 
-export default Email
-
+export default Email;

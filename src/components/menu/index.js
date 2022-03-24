@@ -1,13 +1,19 @@
-import Link from 'next/link'
-import React from 'react';
-
-import styles from './index.module.css';
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import styles from "./index.module.css";
 
 function Menu({ url, alt, pic, title, description }) {
   return (
     <Link href={url}>
-      <a href={url} className={styles.card}>
-        <img src={pic} alt={alt} className={styles.logo} />
+      <a className={styles.card}>
+        <Image
+          src={pic}
+          alt={alt}
+          className={styles.logo}
+          width="50"
+          height="50"
+        />
         <h2>{title}</h2>
         <p>{description}</p>
       </a>
@@ -15,4 +21,4 @@ function Menu({ url, alt, pic, title, description }) {
   );
 }
 
-export default Menu
+export default Menu;

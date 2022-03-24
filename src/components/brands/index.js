@@ -1,13 +1,21 @@
-import React from 'react';
+import Image from "next/image";
+import React from "react";
+import styles from "./index.module.css";
 
-import styles from './index.module.css';
-
-function Brands({ url, alt, pic }) {
+function Brands({ key, alt, pic }) {
   return (
-    <a className={styles.card}>
-      <img src={pic} alt={alt} className={styles.logo} />
-    </a>
+    <>
+      <div className={styles.card}>
+        <Image
+          className={styles.logo}
+          width="60"
+          height="60"
+          src={pic}
+          alt={alt}
+        />
+      </div>
+    </>
   );
 }
 
-export default Brands
+export default Brands;

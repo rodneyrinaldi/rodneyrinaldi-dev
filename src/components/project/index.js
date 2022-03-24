@@ -1,10 +1,9 @@
-import React from 'react';
+import React from "react";
+import styles from "./index.module.css";
 
-import styles from './index.module.css';
-
-function Project({ title, description }) {
+function Project({ key, title, description }) {
   return (
-    <a href='#' className={styles.card}>
+    <a className={styles.card}>
       <div>
         <h2>{title}</h2>
         <p>{description}</p>
@@ -13,4 +12,4 @@ function Project({ title, description }) {
   );
 }
 
-export default Project
+export default Project;
