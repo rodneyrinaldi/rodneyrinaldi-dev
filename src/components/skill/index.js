@@ -1,17 +1,11 @@
-import Image from "next/image";
 import React from "react";
+import Img from "../../components/img";
 import styles from "./index.module.css";
 
-function Skill({ key, url, alt, pic }) {
+function Skill({ key, alt, pic }) {
   return (
     <a className={styles.card}>
-      <Image
-        src={pic}
-        alt={alt}
-        className={styles.logo}
-        width="40"
-        height="40"
-      />
+      <Img src={pic} alt={alt} width="10vw" maxWidth="60px" />
     </a>
   );
 }

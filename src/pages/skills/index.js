@@ -12,14 +12,7 @@ function Skills() {
         <Title title="COMPETÊNCIAS" />
         <div className={styles.row}>
           {data.map(function (item) {
-            return (
-              <Skill
-                key={item.key}
-                url={item.url}
-                alt={item.alt}
-                pic={item.pic}
-              />
-            );
+            return <Skill key={item.key} alt={item.alt} pic={item.pic} />;
           })}
         </div>
       </Layout>
