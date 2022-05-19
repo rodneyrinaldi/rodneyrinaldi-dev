@@ -1,0 +1,74 @@
+[
+  {
+    "title": "2016 - Bayer Customer Relationship Management Brazil",
+    "description": "Deployment of Salesforce as a customer service tool, custom project by the Global team, participation as Process Owner Representative"
+  },
+  {
+    "title": "2013 - Bayer Customer Relationship Management Animal Brazil (Orbium/SAP CRM)",
+    "description": "Development of processes and tools to interface with SAP managing customer service in the veterinary area."
+  },
+  {
+    "title": "2013 - Bayer Customer Relationship Management Animal Brazil",
+    "description": "Migration of Orbium-based operation to SAP CRM."
+  },
+  {
+    "title": "2009 - Merck Sharp & Dohme Load Balance Calls Contact Center",
+    "description": "Architecture, development and implementation of a transfer solution for the contact center service in parity with a third party company. Developed in Visual Basic and Oracle on FTP communication plus telephony transfer via PABX integration."
+  },
+  {
+    "title": "2008 - Bayer Business Intelligence Contact Center",
+    "description": "Architecture and development of ETL VBA Excel interfaces, modeling of the DW database in Access and configuration of Excel queries."
+  },
+  {
+    "title": "2008 - Merck Sharp & Dhome Recall Arcoxia do retail",
+    "description": "Architectures emergency development of three client/server/oracle environments via FTP in three companies to operate the marketing interface solution, accounts payable and receivable in interface with e-Pharma point of sale operator. /server Oracle using FTP file exchange."
+  },
+  {
+    "title": "2006 - Merck Sharp & Dhome Contact Center Argentina.",
+    "description": "Architecture, development and implementation of the contact center platform and relationship programs at the Argentine branch. Developed in Visual Basic and Oracle."
+  },
+  {
+    "title": "2006 - Merck Sharp & Dhome Contact Center Brazil.",
+    "description": "Implementation of a contact center management solution. Developed in Java and Oracle"
+  },
+  {
+    "title": "2004 - Merck Sharp & Dhome Contact Center Mexico.",
+    "description": "Implementation of a contact center management solution. Developed in Java and Oracle"
+  },
+  {
+    "title": "2004 - Merck Sharp & Dhome Cozaar/Hyzaar Relationship Program",
+    "description": "Architecture and development of a solution for managing marketing campaigns initially for the Cozaar and Hyzaar product. Developed in Visual Basic and Oracle"
+  },
+  {
+    "title": "2004 - Retail Merck Sharp & Dhome Recall Vioxx",
+    "description": "Architectures emergency development of three client/server/oracle environments via FTP in three companies to operate the marketing interface solution, accounts payable and receivable in interface with e-Pharma point of sale operator. /server Oracle using FTP file exchange."
+  },
+  {
+    "title": "2003 - Merck Sharp & Dhome Data Warehouse & Business Intelligence",
+    "description": "Architecture and development of ETL interfaces, DW database modeling and configuration of Cognos queries."
+  },
+  {
+    "title": "2003 - Merck Sharp & Dhome Renitec/Corenitec Relationship Program",
+    "description": "Architecture and development of a solution for managing marketing campaigns initially for the Renitec product, with success extended to the CoRenitec product. Developed in Visual Basic and Oracle"
+  },
+  {
+    "title": "1998 - Bayer Shering Recall Microvlar, Flour Pill",
+    "description": "Architecture and development of a solution for managing the public health crisis in one week. Expanding a non-specialized contact center from two part-time interns to thirty-five pharmacists serving full-time. Developed in Visual Basic , provided all reports delivered to ANVISA."
+  },
+  {
+    "title": "1997/2003 - Plusoft Niche Development Pharmacovigilance for the Pharmaceutical Industry",
+    "description": "Architecture and development of a specialist service platform for the pharmaceutical industry, having designed the first pharmacovigilance system on the market. Development in Visual Basic on a client/server platform."
+  },
+  {
+    "title": "1993/2003 - Plusoft call centers",
+    "description": "Architecture and development of a customer service platform for general use. Developed in Foxpro initially and then ported to Visual Basic on Novel platform using relational databases Oracle, Sybase, SqlServer, DB2."
+  },
+  {
+    "title": "1992 - FMUSP Record Management Scientific Production Medicine USP",
+    "description": "Architecture and development of a system to store and distribute academic medical information from the academic production department of FMUSP. Developed in Clipper in Novel network."
+  },
+  {
+    "title": "1989 - FMUSP Automation of the USP Medical Residency Entrance Exam",
+    "description": "Architecture and development of a system to determine the results of the qualifying test for physicians who would become residents at FMUSP. Project developed in Clipper on an intelligent Multiserial platform, introducing remarkable template readers."
+  }
+]

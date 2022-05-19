@@ -1,32 +1,29 @@
+import { useTranslation } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Link from "next/link";
-import React from "react";
+import { useRouter } from "next/router";
+import React, { useEffect } from "react";
 import styles from "./index.module.css";
 
 function Job() {
+  useEffect(() => {}, []);
+
+  const router = useRouter();
+  const { t } = useTranslation("job");
+
   return (
     <>
       <Link href="/">
         <a>
           <div className={styles.row}>
-            <p>Olá,</p>
-            <p>
-              Meu nome é Rodney, fui desenvolvedor client / server na plataforma
-              Microsoft durante os anos 90 e 2000. Me atualizei e estou codando
-              no ecossistema Javascript / Node / React. Também fui dba Oracle,
-              experiente em SqlServer e atualizado nos bancos Postgres / Mongo /
-              Redis.
-            </p>
-            <p>
-              De volta ao desenvolvimento procuro uma oportunidade que me
-              permita pegar o rítimo novamente. Entendo que possa haver motivos
-              que tornem esta situação interessante para todos.
-            </p>
+            <p>{t("p1")}</p>
+            <p>{t("p2")}</p>
+            <p>{t("p3")}</p>
             <br />
-            <p>Fico à disposição para contatos, obrigado.</p>
-            <p>Rodney Rinaldi</p>
-
+            <p>{t("p4")}</p>
+            <p>{t("p5")}</p>
             <Link href="/portfolio">
-              <a>http://dev.rodneyrinaldi.com/portfolio</a>
+              <a>{t("p6")}</a>
             </Link>
           </div>
         </a>
@@ -34,5 +31,11 @@ function Job() {
     </>
   );
 }
+
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...(await serverSideTranslations(locale, ["job"])),
+  },
+});
 
 export default Job;

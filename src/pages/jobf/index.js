@@ -1,32 +1,31 @@
+import { useTranslation } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Link from "next/link";
-import React from "react";
+import { useRouter } from "next/router";
+import React, { useEffect } from "react";
 import styles from "./index.module.css";
 
 function Job() {
+  useEffect(() => {}, []);
+
+  const router = useRouter();
+  const { t } = useTranslation("jobf");
+
   return (
     <>
       <Link href="/">
         <a>
           <div className={styles.row}>
-            <p>Prezados,</p>
-            <p>
-              Em busca de uma oportunidade na área de projetos e tecnologia,
-              apresento-lhes meu currículo.
-            </p>
-            <p>
-              Dentre minhas características pessoais destaca-se o
-              comprometimento, senso de pertencimento e busca continuada pelo
-              conhecimento. Nas profissionais destaca-se a experiência em
-              gerenciamento de contas e projetos, administração de dados,
-              desenvolvimento de soluções e gestão de produtos e portfólios.
-            </p>
-            <p>Informo ainda que tenho disponibilidade para viagens.</p>
-            <p>No aguardo de um contato, coloco-me à disposição.</p>
+            <p>{t("p1")}</p>
+            <p>{t("p2")}</p>
+            <p>{t("p3")}</p>
+            <p>{t("p4")}</p>
+            <p>{t("p5")}</p>
             <br />
-            <p>Cordialmente,</p>
-            <p>Rodney Rinaldi</p>
+            <p>{t("p6")}</p>
+            <p>{t("p7")}</p>
             <Link href="/portfolio">
-              <a>http://dev.rodneyrinaldi.com/portfolio</a>
+              <a>{t("p8")}</a>
             </Link>
           </div>
         </a>
@@ -34,5 +33,11 @@ function Job() {
     </>
   );
 }
+
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...(await serverSideTranslations(locale, ["jobf"])),
+  },
+});
 
 export default Job;

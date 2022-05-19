@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./index.module.css";
 
-function Project({ key, title, description }) {
+function Project({ id, title, description }) {
   return (
     <a className={styles.card}>
       <div>

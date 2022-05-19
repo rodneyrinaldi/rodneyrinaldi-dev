@@ -1,11 +1,18 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import Meta from "../meta";
 import styles from "./index.module.css";
 
 function Header(props) {
+  const [flag, setFlag] = useState("pt");
+
+  const handleLocaleChange = (flag) => {
+    localStorage.setItem("i18nextLng", flag);
+    window.location = flag;
+  };
+
   return (
     <>
       <Head>
@@ -42,6 +49,47 @@ function Header(props) {
           />
         </div>
       </div>
+
+      {props.showcard === "yes" ? (
+        <a
+          className={styles.flagbr}
+          onClick={() => {
+            setFlag("pt");
+            handleLocaleChange("pt");
+          }}
+        >
+          <Image
+            width={26}
+            height={26}
+            src="/flagbr.png"
+            alt=""
+            className={styles.flags}
+          />
+        </a>
+      ) : (
+        <></>
+      )}
+
+      {props.showcard === "yes" ? (
+        <a
+          className={styles.flagen}
+          onClick={() => {
+            setFlag("en");
+            handleLocaleChange("en");
+          }}
+        >
+          <Image
+            width={26}
+            height={26}
+            src="/flagen.png"
+            alt=""
+            className={styles.flags}
+          />
+        </a>
+      ) : (
+        <></>
+      )}
+
       {props.showcard === "yes" ? (
         <Link href="/card">
           <a className={styles.card}>

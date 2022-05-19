@@ -2,7 +2,7 @@ import React from "react";
 import Img from "../../components/img";
 import styles from "./index.module.css";
 
-function Brands({ key, alt, pic }) {
+function Brands({ id, alt, pic }) {
   return (
     <>
       <div className={styles.card}>
