@@ -10,6 +10,16 @@ function Contact(props) {
   return (
     <>
       <div className={styles.wrapperTop}>
+        <a onClick={() => router.push("/")}>
+          <Image
+            src="/sidebar/home.png"
+            alt="email"
+            className={styles.icon}
+            width="42"
+            height="42"
+          />
+        </a>
+        <br />
         <a href="#toppage">
           <Image
             src="/sidebar/top.png"
