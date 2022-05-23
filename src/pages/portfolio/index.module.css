@@ -26,13 +26,13 @@
 @media (max-width: 600px) {
   .row {
     width: 80%;
-    margin: 1vh 4vw 2vh 0;
+    margin: 1vh 6vw 2vh 0;
   }
 
   .row2 {
     width: 97%;
     flex-direction: column;
-    margin: 1vh 5vw 1vh 0;
+    margin: 1vh 8vw 1vh 0;
   }
   .row2 p {
     margin: 0;
